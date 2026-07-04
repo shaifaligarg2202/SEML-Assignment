@@ -1,0 +1,42 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data and Artifacts
+data/*.csv
+app/model.pkl
+
+# Reference files
+Assignment I.pdf
+Session 4_pipe-and-filter-code.py
+Webinar1_ML System.pptx
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
++
++# Environment / secrets
++.env
++.env.*
++
++# Virtual environments
++venv/
++.venv/
++env/
++
++# OS files
++.DS_Store
++Thumbs.db
++
++# Logs
++*.log

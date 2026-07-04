@@ -1,0 +1,19 @@
+# ── Core ML + serving ────────────────────────────────
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+pydantic>=2.0.0
+fastapi>=0.95.0
+uvicorn>=0.20.0
+pyyaml>=6.0.0
+joblib>=1.2.0
+
+# ── Testing ──────────────────────────────────────────
+pytest>=7.3.0
+httpx>=0.24.0            # required by fastapi.testclient
+
+# ── Deliverable generation (diagrams / notebook / PDF) ─
+matplotlib>=3.7.0
+reportlab>=4.0.0
+nbformat>=5.8.0
+nbconvert>=7.4.0
