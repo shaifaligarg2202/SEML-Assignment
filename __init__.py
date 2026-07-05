@@ -1,1 +1,1 @@
-"""Loan Approval Risk Service — application package."""
+"""Model training package."""

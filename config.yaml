@@ -1,0 +1,36 @@
+# Loan Underwriting Service Configurations
+app:
+  name: "Loan Approval Risk Service"
+  env: "production"
+  version: "1.0.0"
+
+model:
+  path: "app/model.pkl"
+  default_threshold: 0.50
+  features:
+    - Age
+    - AnnualIncome
+    - CreditScore
+    - EmploymentStatus
+    - EducationLevel
+    - LoanAmount
+    - LoanDuration
+    - MonthlyDebtPayments
+    - CreditCardUtilizationRate
+    - DebtToIncomeRatio
+    - BankruptcyHistory
+    - LoanPurpose
+    - PreviousLoanDefaults
+    - PaymentHistory
+    - LengthOfCreditHistory
+    - SavingsAccountBalance
+    - CheckingAccountBalance
+    - TotalLiabilities
+    - JobTenure
+    - NetWorth
+    - LoanToIncomeRatio
+    - SavingsToLoanRatio
+
+logging:
+  level: "INFO"
+  format: "json"
